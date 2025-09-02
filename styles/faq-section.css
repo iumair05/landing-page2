@@ -12,6 +12,9 @@
 }
 
 .faq-section .faq-para {
+  max-width: 1156px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 30px;
   margin-top: 40px;
   font-family: Poppins;
