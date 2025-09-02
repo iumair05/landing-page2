@@ -29,3 +29,10 @@ const swiper1 = new Swiper(".mySwiper1", {
         1200: { slidesPerView: 5, spaceBetween: 20 }
     }
 });
+
+
+const reviewSwiper = new Swiper(".reviews-swiper", {
+    slidesPerView: 1,
+    centeredSlides: true,
+    spaceBetween: 0,
+});
