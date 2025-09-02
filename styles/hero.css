@@ -31,6 +31,7 @@
   color: white;
   text-align: center;
   letter-spacing: 1px;
+  line-height: 57px;
 }
 
 .hero-section .content p {
@@ -42,6 +43,8 @@
   color: white;
   text-align: center;
   text-transform: uppercase;
+  line-height: 26px;
+  margin-top: 30px;
 }
 
 @media (max-width: 768px) {
