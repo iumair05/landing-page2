@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /* FAQ's Section */
 .faq-section {
   margin-top: 60px;
@@ -8,7 +10,6 @@
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  letter-spacing: 1px;
 }
 
 .faq-section .faq-para {
@@ -26,7 +27,7 @@
 
 .faq-container {
   margin: 37px 0;
-  padding: 0 27px;
+  padding: 0 30px;
   position: relative;
 }
 
@@ -92,20 +93,18 @@
   }
 }
 
-@media screen and (max-width: 524px) {
+@media (max-width: 668px) {
+  /* FAQ's Section */
   .faq-section {
     margin-top: 20px;
-    padding: 0 20px;
   }
-
   .faq-section h3 {
     font-size: 20px;
     line-height: 49px;
   }
-
   .faq-section .faq-para {
+    margin-top: 23px;
     font-size: 10px;
     line-height: 20px;
-      margin-top: 23px;
   }
 }

@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .return-section {
   padding: 0 30px;
+  max-width: 1440px;
+  margin: 59px auto 0 auto;
   text-align: center;
-  font-family: Poppins;
 }
 
 .return-section h2 {
-  margin-top: 60px;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  letter-spacing: 1px;
 }
 
 .return-section .return-para {
@@ -21,17 +22,14 @@
   font-size: 15px;
 }
 
-.return-section p strong {
+.return-section p b {
   font-family: Poppins;
   font-weight: 700;
   font-size: 15px;
   line-height: 26px;
-  text-decoration: underline;
-  text-transform: uppercase;
 }
 
 .return-section .card-container {
-  max-width: 1331px;
   width: 100%;
   margin: 50px auto 0 auto;
   gap: 25px;
@@ -50,26 +48,19 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #efc0c37a;
+  background-color: rgba(239, 192, 195, 0.6);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   gap: 30px;
 }
 
-.card strong {
-  width: 100%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #245490;
-  color: white;
-  border-radius: 50%;
-  font-size: 39px;
-  font-weight: 500;
+.card-container .card p strong {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
 }
 
-.card h3 {
+.card-container .card h3 {
   font-size: 20px;
   line-height: 26px;
   text-align: center;
@@ -79,14 +70,14 @@
   text-transform: uppercase;
 }
 
-.card p {
+.card-container .card p {
   font-family: poppins;
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
 }
 
-.card a {
+.card-container .card a {
   font-family: poppins;
   font-weight: 600;
   font-size: 15px;
@@ -97,6 +88,7 @@
   text-transform: uppercase;
   padding: 0 30px;
   margin-left: auto;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 1240px) {
@@ -106,51 +98,25 @@
 }
 
 @media screen and (max-width: 768px) {
-  .return-section .card-container {
-    align-items: center;
-  }
-
-  .return-section .card-container .card {
-    max-width: 315px;
-    width: 100%;
-    padding: 20px;
-    height: 280px;
-    gap: 10px;
-  }
-
-  .card h3 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-
-  .card p {
-    font-size: 12px;
-    line-height: 22px;
-  }
-
-  .card a {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 524px) {
   .return-section {
-    padding: 0 50px;
+    text-align: left;
+    margin-top: 30px;
   }
 
   .return-section h2 {
-    margin-top: 40px;
     font-size: 20px;
     line-height: 49px;
-    text-align: left;
-    padding: 0 20px;
   }
 
   .return-section .return-para {
     font-size: 10px;
     line-height: 20px;
-    margin: 20px auto;
-    padding: 0 20px;
+    margin-top: 10px;
+  }
+
+  .return-section p b {
+    font-size: 12px;
+    line-height: 22px;
   }
 
   .return-section p strong {
@@ -159,6 +125,33 @@
   }
 
   .return-section .card-container {
-    padding: 0 10px;
+    align-items: center;
+  }
+
+  .return-section .card-container .card {
+    max-width: 315px;
+    width: 100%;
+    padding: 20px;
+    min-height: 280px;
+    height: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+    text-align: center; /* centers text */
+  }
+
+  .card-container .card h3 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .card-container .card p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .card-container .card a {
+    font-size: 10px;
   }
 }
