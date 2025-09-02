@@ -199,3 +199,64 @@
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 425px) {
+  .policy-section-mobile h2 {
+    padding: 0 60px;
+  }
+  .policy-first-row {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 49px;
+    padding: 0 60px;
+  }
+  .policy-first-row p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+  }
+  .policy-second-row {
+    margin-top: 26px;
+  }
+
+  .policy-bottom-content {
+    margin-top: 39px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .policy-bottom-content img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .policy-bottom-content p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-bottom-content p strong {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-return-para {
+    padding: 0 60px;
+    font-size: 10px;
+    line-height: 20px;
+    margin: 10px auto;
+  }
+
+  .policy-return-para strong {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-second-row a {
+    margin-top: 10px;
+    padding: 0 60px;
+    font-size: 10px;
+  }
+}

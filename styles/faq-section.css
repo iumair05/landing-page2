@@ -88,3 +88,21 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 524px) {
+  .faq-section {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+
+  .faq-section h3 {
+    font-size: 20px;
+    line-height: 49px;
+  }
+
+  .faq-section .faq-para {
+    font-size: 10px;
+    line-height: 20px;
+      margin-top: 23px;
+  }
+}
