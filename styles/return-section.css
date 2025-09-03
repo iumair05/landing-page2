@@ -22,6 +22,17 @@
   font-size: 15px;
 }
 
+.return-section p strong {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-transform: uppercase;
+}
+
 .return-section p b {
   font-family: Poppins;
   font-weight: 700;
@@ -152,7 +163,7 @@
 
   .card-container .card img {
     width: 36px;
-    height: 34px;
+    height: 36px;
   }
 
   .card-container .card h3 {

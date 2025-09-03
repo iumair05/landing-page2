@@ -71,7 +71,6 @@
 }
 
 .crew-section .crew-right p {
-  font-family: Poppins;
   font-weight: 600;
   font-size: 15px;
   line-height: 49px;
@@ -100,14 +99,22 @@
 
 @media (max-width: 426px) {
   .crew-section .crew-right h3 {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22.5px;
   }
+
+  .crew-section .crew-left h3 {
+    font-size: 12px;
+  }
+
   .crew-section .crew-right p {
     font-weight: 700;
-    font-size: 10px;
-    line-height: 20px;
-    max-width: 230px;
-    width: 100%;
+    line-height: 25px;
+  }
+
+  .crew-section .crew-left p {
+    font-size: 15px;
+    line-height: 25px;
   }
 }
