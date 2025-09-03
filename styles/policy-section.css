@@ -192,6 +192,32 @@
     justify-content: center;
     gap: 10px;
   }
+
+  .policy-bottom-content img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .policy-bottom-content p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-bottom-content p strong {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-return-para strong {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .policy-return-para {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
   .policy-return-para {
     margin: 20px auto 12px auto;
     padding: 0 30px;
