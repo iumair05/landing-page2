@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 /* Policy Section */
 .policy-section {
   width: 1440px;
@@ -36,6 +35,8 @@
   flex: 1;
   width: 100%;
   padding: 0 50px 0 5px;
+  max-width: 589px;
+  margin-right: auto;
 }
 
 .policy-section .policy-row .policy-right-content h3 {
@@ -160,12 +161,17 @@
     padding: 0 30px;
     margin-top: 40px;
   }
+
   .policy-first-row {
+    padding: 0 30px;
+  }
+
+  .policy-first-row h3 {
     font-weight: 400;
     font-size: 20px;
     line-height: 49px;
-    padding: 0 30px;
   }
+
   .policy-first-row p {
     font-weight: 400;
     font-size: 12px;
@@ -187,7 +193,7 @@
     gap: 10px;
   }
   .policy-return-para {
-    margin: 20px auto;
+    margin: 20px auto 12px auto;
     padding: 0 30px;
   }
   .policy-second-row a {
